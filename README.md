@@ -113,3 +113,10 @@ claude-config/
 
 - [Claude Code docs](https://docs.anthropic.com/en/docs/claude-code)
 - [My dotfiles](https://github.com/brianlovin/dotfiles) - Shell, git, SSH config
+
+## Compatible Agents
+
+This configuration works with:
+
+- [Claude Code](https://claude.ai/code) - Anthropic's coding agent
+- [AdaL](https://sylph.ai/adal) - Self-evolving AI coding agent with Claude Code compatibility
