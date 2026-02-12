@@ -6,10 +6,25 @@
     ],
     "deny": []
   },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "DCG_CONFIG=/Users/brian/.config/dcg/config.toml /Users/brian/.local/bin/dcg"
+          }
+        ]
+      }
+    ]
+  },
   "statusLine": {
     "type": "command",
     "command": "~/.claude/statusline.sh"
   },
-  "alwaysThinkingEnabled": true,
-  "model": "opus"
+  "enabledPlugins": {
+    "swift-lsp@claude-plugins-official": true
+  },
+  "alwaysThinkingEnabled": true
 }
